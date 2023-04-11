@@ -1,0 +1,4 @@
+Here I developed a Customer Churning Analysis Visualizations to identify and predict hidden patterns and trends from records using Tableau. Below is the link to my Tableau Public Profile for better experience.
+
+
+https://public.tableau.com/app/profile/nikita.prasad/viz/CreditCardCustomersSegment/CreditCardCustomersSegmentation
