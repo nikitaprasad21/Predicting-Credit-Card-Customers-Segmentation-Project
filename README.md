@@ -32,4 +32,7 @@
 
 ##### The Credit Score is the target variable in this problem. Based on this criteria banks classify credit scores and train a model to classify the credit score of a person.
 
+#### Below is the dashboard I created to better understand dataset.
+
+![Screenshot 2023-04-11 170828](https://user-images.githubusercontent.com/84131752/231197672-95e68421-88a9-4257-845b-1b876c9fccb6.png)
 
