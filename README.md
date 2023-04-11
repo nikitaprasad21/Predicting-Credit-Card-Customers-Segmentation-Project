@@ -31,3 +31,5 @@
 ###### Status : Existing and Attrited Customers
 
 ##### The Credit Score is the target variable in this problem. Based on this criteria banks classify credit scores and train a model to classify the credit score of a person.
+
+
