@@ -1,0 +1,53 @@
+I am working with Credit Card Dataset. Here I have performed Attrition Analysis for 25K Credit Card Users using SQL to get the insights related to churn rate across different countries.
+
+1. To print the first ten entries to get an overview of data.
+
+SELECT * FROM `creditcard` limit 10;
+
+
+2. To find Customer Count from different countries
+
+SELECT creditcard.Geography AS Country, COUNT(creditcard.Customer_ID) AS Customer_Count
+FROM `creditcard` 
+GROUP BY creditcard.Geography 
+ORDER by Customer_Count DESC;
+
+
+3. To find count of the top 5 occupations of customer who are existing customers
+
+SELECT creditcard.Occupation AS "Type of Occupation", COUNT(creditcard.Status) AS Customer_Count
+FROM `creditcard` 
+WHERE creditcard.Status = "Existed"
+GROUP BY creditcard.Occupation
+ORDER by Customer_Count DESC
+LIMIT 5;
+
+
+4. Credit Card User Distribution that has exited based on Age
+
+SELECT CASE WHEN creditcard.Age < 20 THEN "0-20"
+WHEN creditcard.Age BETWEEN 20 AND 40 THEN "20-40"
+WHEN creditcard.Age BETWEEN 40 AND 60 THEN "40-60"
+WHEN creditcard.Age > 60 THEN "Above 60" END as Age_Range, COUNT(*) AS Customer_Count
+from creditcard
+WHERE creditcard.Status = "Attrited"
+GROUP BY Age_Range;
+
+
+5. Males Vs Females In Existing and Attrition customers
+
+SELECT SUM(IF(Gender = "Male", 1, "NULL")) as MaleExistingCustomers, SUM(IF(Gender = "Female", 1, "NULL")) as FemaleExistingCustomers 
+from creditcard
+WHERE creditcard.Status = "Existed";
+
+SELECT SUM(IF(Gender = "Male", 1, "NULL")) as MaleExistingCustomers, SUM(IF(Gender = "Female", 1, "NULL")) as FemaleExistingCustomers 
+from creditcard
+WHERE creditcard.Status = "Attrited";
+
+
+6. Find the sum of attrited customer with payment status
+
+SELECT SUM(IF(Payment_of_Min_Amount = "Yes", 1, "NULL")) as Paid_Payment, SUM(IF(Payment_of_Min_Amount = "No", 1, "NULL")) as Unpaid_Payment,  SUM(IF(Payment_of_Min_Amount = "NM", 1, "NULL")) as Unknown_Payment
+from creditcard
+WHERE creditcard.Status = "Attrited";
+
