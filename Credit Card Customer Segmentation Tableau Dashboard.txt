@@ -3,3 +3,12 @@ Below is the link to my Tableau Public Profile for better experience.
 
 
 https://public.tableau.com/app/profile/nikita.prasad/viz/CreditCardCustomersSegment/CreditCardCustomersSegmentation
+
+
+The 5 important conclusions made from the above dashboard are mentioned as follows:
+
+1. More tahn 50% of the Customer has done the repayment of the Minimum Credit Amount.
+2. Credit Score of people with age range between 20-50 has a good Credit Score.
+3. Credit Score of Media Manager lies in Good Category whereas for Entrepreneur lies in Poor Category.
+4. The ratio of male and female customers is approximately 1:1.
+5. There is less significance of the geography of the client.
