@@ -32,7 +32,17 @@
 
 ##### The Credit Score is the target variable in this problem. Based on this criteria banks classify credit scores and train a model to classify the credit score of a person.
 
+## Analytics
+
 #### Below is the dashboard I created to better understand dataset.
 
 ![Screenshot 2023-04-11 170828](https://user-images.githubusercontent.com/84131752/231197672-95e68421-88a9-4257-845b-1b876c9fccb6.png)
 
+#### The 3 important conclusions made from the above dashboard are mentioned as follows:
+* More tahn 50% of the Customer has done the repayment of the Minimum Credit Amount.
+* Credit Score of people with age range between 20-50 has a good Credit Score. 
+* Credit Score of Media Manager lies in Good Category whereas for Entrepreneur lies in Poor Category.
+
+## Credit Score Classification Model 
+
+#### I have deployed Supervised Machine Learning Models to improve retention rate with accuracy of 75.28% on test data for Random Forest Classifier (RFC).
