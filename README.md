@@ -1,6 +1,6 @@
 # Predicting-Credit-Card-Customers-Segmentation-Project
 
-## Introduction
+### Introduction
 
 #### The credit score of a person determines the creditworthiness of the person. It helps financial companies determine repayment of the loan or credit customers are applying for. In this project I have done analysis using SQL, developed Dashboard using Tableau and created classification model using Python to identify and predict hidden patterns and trends from records.
 
@@ -41,7 +41,7 @@
 * Python for Model Building 
 
 
-## Analytics
+### Analytics
 
 #### Below is the dashboard I created to better understand dataset.
 
@@ -52,6 +52,6 @@
 * Credit Score of people with age range between 20-50 has a good Credit Score. 
 * Credit Score of Media Manager lies in Good Category whereas for Entrepreneur lies in Poor Category.
 
-## Credit Score Classification Model 
+### Credit Score Classification Model 
 
 #### I have deployed Supervised Machine Learning Models to improve retention rate with accuracy of 75.28% on test data for Random Forest Classifier (RFC).
