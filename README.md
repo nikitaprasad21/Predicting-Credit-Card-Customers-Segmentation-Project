@@ -32,6 +32,15 @@
 
 ##### The Credit Score is the target variable in this problem. Based on this criteria banks classify credit scores and train a model to classify the credit score of a person.
 
+
+### Tools Used
+
+* Excel for Data Cleaning
+* Tableau for creating dashboard
+* SQL for analysis
+* Python for Model Building 
+
+
 ## Analytics
 
 #### Below is the dashboard I created to better understand dataset.
