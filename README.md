@@ -68,7 +68,7 @@ Based on the conclusions drawn from the analysis, the following recommendations 
 
 ### Credit Score Classification Model 
 
-#### I have deployed Supervised Machine Learning Models to improve retention rate with accuracy of 75.28% on test data for Random Forest Classifier (RFC).
+#### I have deployed Supervised Machine Learning Models to improve retention rate with accuracy of 85.19% on test data for Bagging Classifier.
 
 ### Conclusion
 
